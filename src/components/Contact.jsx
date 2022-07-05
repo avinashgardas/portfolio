@@ -2,12 +2,13 @@ import React from "react";
 import { useState } from "react";
 import ReactMapGL from "react-map-gl";
 import emailjs from "emailjs-com";
+import Social from "./Social";
 
 const Contact = () => {
   const [viewport, setViewport] = useState({
-    latitude: 40.712776,
-    longitude: -74.005974,
-    zoom: 8,
+    latitude: 45.3499278,
+    longitude: -75.7571255,
+    zoom: 14,
   });
 
   function sendEmail(e) {
@@ -55,24 +56,28 @@ const Contact = () => {
         </div>
         {/* MENU WRAP */}
 
-        <div className="fields">
+        <div className="contact-social">
+          <Social />
+        </div>
+
+        {/* <div className="fields">
           <form className="contact_form" onSubmit={sendEmail}>
             <div className="first">
               <ul>
                 <li>
                   <input type="text" name="name" placeholder="Name" />
                 </li>
-                {/* END FIRST NAME */}
+                
 
                 <li>
                   <input type="email" name="user_email" placeholder="Email" />
                 </li>
-                {/* END EMAIL */}
+               
 
                 <li>
                   <textarea name="message" placeholder="Message"></textarea>
                 </li>
-                {/* END SUBJECT MESSAGE */}
+                
               </ul>
             </div>
             <div className="tokyo_tm_button">
@@ -80,10 +85,10 @@ const Contact = () => {
                 Send Message
               </button>
             </div>
-            {/* END SUBMIT BUTTON */}
+            
           </form>
-          {/* END FORM */}
-        </div>
+          
+        </div> */}
         {/* END FIELDS */}
       </div>
       {/* END COTACT */}

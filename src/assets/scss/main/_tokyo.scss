@@ -544,12 +544,15 @@ h6 {
 }
 .tokyo_tm_about .about_image {
   width: 100%;
-  height: auto;
+  height: 400px;
   clear: both;
   float: left;
   margin-bottom: 48px;
 }
 .tokyo_tm_about .about_image img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
   min-width: 100%;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
 }
@@ -564,10 +567,12 @@ h6 {
   justify-content: space-between;
 }
 .tokyo_tm_about .description .left {
-  width: 55%;
+  // width: 55%;
+  width: 100%;
   padding-right: 50px;
 }
 .tokyo_tm_about .description .left p {
+  font-size: 18px;
   margin-bottom: 35px;
   font-style: italic;
 }
@@ -1518,7 +1523,7 @@ body.modal {
   font-weight: 500;
 }
 .tokyo_tm_contact ul li span {
-  color: #f52225;
+  // color: #f52225;
   text-align: left;
   font-weight: 500;
 }
@@ -2243,4 +2248,13 @@ body.modal {
   input {
     cursor: pointer;
   }
+}
+
+
+// new
+.contact-social .social {
+  text-align: center;
+}
+.contact-social .social li {
+  margin-right: 60px;
 }

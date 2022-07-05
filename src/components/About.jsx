@@ -15,20 +15,23 @@ const About = () => {
     <>
       <div className="tokyo_tm_about" id="about">
         <div className="about_image ">
-          <img src="assets/img/slider/1.jpg" alt="about" />
+          <img src="assets/img/slider/about.jpg" alt="about" />
         </div>
         {/* <div className="o-video">
           <iframe src="https://www.youtube.com/embed/0yW7w8F2TVA"></iframe>
         </div> */}
         {/* END ABOUT IMAGE */}
         <div className="description">
-          <h3 className="name">Adriano Smith &amp; Photographer</h3>
+          <h3 className="name">Web Designer &amp; Developer</h3>
           <div className="description_inner">
             <div className="left">
               <p>
-                Hello, I am a creative photographer based in New York and happy
-                to travel all over Europe to capture your big day in candid and
-                authentic photos. I will create a lasting memory of the people.
+                Hello, I am a passionate fron-end web developer and designer
+                with 4 years of experience using HTML, CSS, and JavaScript to
+                build all aspects of user interface and user experience for
+                client pages and business web applications. I specialize in
+                using ReactJS and Firebase database to build Single Page
+                Applications.
               </p>
               <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">
@@ -38,7 +41,7 @@ const About = () => {
               {/* END TOKYO BUTTON */}
             </div>
             {/* END LEFT */}
-            <div className="right">
+            {/* <div className="right">
               <ul>
                 <li>
                   <p>
@@ -78,8 +81,7 @@ const About = () => {
                   </p>
                 </li>
               </ul>
-              {/* END UL */}
-            </div>
+            </div> */}
             {/* END RIGHT */}
           </div>
           {/* END DESCRIPTION INNER */}

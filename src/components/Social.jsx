@@ -4,7 +4,7 @@ const SocialShare = [
   {
     iconName: "file",
     name: "Resume",
-    link: "https://drive.google.com/file/d/1dIAM0WoPU0mm2AEYTL_gfKsL1Ugxfyuo/view?usp=sharing",
+    link: "https://drive.google.com/file/d/15iq4FBHoJXrme3DN1zbdVf6ewJ7xw5d8/view?usp=sharing",
   },
   {
     iconName: "github",

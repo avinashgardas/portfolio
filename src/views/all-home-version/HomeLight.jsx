@@ -149,7 +149,7 @@ const HomeLight = () => {
                       delay={0}
                       onClick={() => handleActiveLink("portfolio")}
                     >
-                      Portfolio
+                      Work
                     </ScrollLink>
                   </li>
                   {/* <Tab>
@@ -177,7 +177,7 @@ const HomeLight = () => {
                       delay={0}
                       onClick={() => handleActiveLink("news")}
                     >
-                      News
+                      Skills
                     </ScrollLink>
                   </li>
                   {/* <Tab>
