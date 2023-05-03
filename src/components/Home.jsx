@@ -19,7 +19,7 @@ const Home = () => {
           <div className="details">
             <h3 className="name">Avinash Gardas</h3>
             <p className="job">
-              A creative front-end web developer and designer based in Ottawa,
+              A creative Front-End Web Developer and Designer based in Ottawa,
               Canada
             </p>
             {/* END JOB */}

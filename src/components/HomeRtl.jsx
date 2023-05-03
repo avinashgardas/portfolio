@@ -17,10 +17,9 @@ const Home = () => {
           </div>
           {/* END AVATAR */}
           <div className="details">
-            <h3 className="name">أدريانو سميث</h3>
+            <h3 className="name">אבינש גארדאס</h3>
             <p className="job">
-              مصور إبداعي مقيم في نيويورك ويسعده السفر جميعًا فوق أوروبا لالتقاط
-              الصور.
+            מפתח ומעצב אתרים Front-End יצירתי שבסיסו באוטווה, קנדה
             </p>
             {/* END JOB */}
             <Social />

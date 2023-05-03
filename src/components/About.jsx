@@ -15,7 +15,7 @@ const About = () => {
     <>
       <div className="tokyo_tm_about" id="about">
         <div className="about_image ">
-          <img src="assets/img/slider/about.jpg" alt="about" />
+          <img src="assets/img/slider/about2.jpeg" alt="about" />
         </div>
         {/* <div className="o-video">
           <iframe src="https://www.youtube.com/embed/0yW7w8F2TVA"></iframe>
@@ -26,12 +26,12 @@ const About = () => {
           <div className="description_inner">
             <div className="left">
               <p>
-                Hello, I am a passionate fron-end web developer and designer
+                Hello, I am a passionate front-end web developer and designer
                 with 4 years of experience using HTML, CSS, and JavaScript to
                 build all aspects of user interface and user experience for
                 client pages and business web applications. I specialize in
                 using ReactJS and Firebase database to build Single Page
-                Applications.
+                Applications. I recently worked with AngularJS during my internship at Ribbon Communications, Ottawa.
               </p>
               <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">
